@@ -1,0 +1,18 @@
+[package]
+name = "gpmfdemo"
+version = "0.1.0"
+edition = "2021"
+description = "WIP gpmfdemo implementation"
+authors = ["Apps4u_co"]
+#homepage="http://apps4u.co/"
+documentation="https://docs.rs/gpmfdemo"
+repository="https://github.com/apps4uco/gpmfdemo"
+keywords = ["gpmf","gopro","hero","sensors","geospatial"]
+categories = ["data-structures","encoding","command-line-utilities","parser-implementations"]
+license = "MIT OR Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.1.11", features = ["derive"] }
+mp4 = "0.13.0"
